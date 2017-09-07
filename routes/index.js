@@ -6,10 +6,6 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
-router.get('/data', function(req, res) {
-  res.send({data:[]});
-});
-
 
 module.exports = router;
 

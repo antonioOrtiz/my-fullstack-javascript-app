@@ -1,0 +1,25 @@
+{
+  "name": "my-fullstack-javascript-app",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Antonio Pavicevac-Ortiz <17antonio.ortiz@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/antonioOrtiz/my-fullstack-javascript-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/stylesheets/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Skeleton-Sass": "skeleton-scss#*"
+  },
+  "devDependencies": {
+    "skeleton-fontawesome-buttons": "^1.0.1",
+    "normalize-scss": "^3.0.3"
+  }
+}

@@ -1,14 +1,14 @@
+'use strict';
+
 var express = require('express');
 
 const router = express.Router();
 
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
   res.render('index');
 });
 
-
 module.exports = router;
-
 
 // router.use('/campuses', require('./campuses'));
 // router.use('/students', require('./students'));

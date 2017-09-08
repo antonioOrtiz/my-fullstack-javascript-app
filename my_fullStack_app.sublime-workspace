@@ -1,0 +1,938 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"header",
+				"headerMessage"
+			],
+			[
+				"crea",
+				"createElement()\tReact"
+			],
+			[
+				"set",
+				"setTimeout\tsetTimeout()"
+			],
+			[
+				"exports",
+				"module.exports"
+			],
+			[
+				"ch",
+				"chunk"
+			],
+			[
+				"fe",
+				"female"
+			],
+			[
+				"fem",
+				"femaleAgeTotal"
+			],
+			[
+				"fun",
+				"function_without_name"
+			],
+			[
+				"empl",
+				"employee"
+			],
+			[
+				"le",
+				"length\t: int String"
+			],
+			[
+				"_re",
+				"_reduce\tReduces a collection to a value which is the accumulated result of running each element in the collection through the callback."
+			],
+			[
+				"emp",
+				"employee"
+			],
+			[
+				"_fi",
+				"_filter\tIterates over elements of a collection, returning an array of all elements the callback returns truey for."
+			],
+			[
+				"_",
+				"_map\tCreates an array of values by running each element in the collection through the callback."
+			],
+			[
+				"number",
+				"numbersCubed"
+			],
+			[
+				"ma",
+				"map"
+			],
+			[
+				"cre",
+				"createSafeVersion"
+			],
+			[
+				"in",
+				"increment"
+			],
+			[
+				"func",
+				"function_without_name"
+			],
+			[
+				"cons",
+				"console.log"
+			],
+			[
+				"su",
+				"subtract"
+			],
+			[
+				"cal",
+				"callWith2Arguments"
+			],
+			[
+				"DE",
+				"DEBUG_MODE_ENABLED"
+			],
+			[
+				"st",
+				"students"
+			],
+			[
+				"des",
+				"deselectAlbum"
+			],
+			[
+				"React",
+				"ReactDOM"
+			],
+			[
+				"orig",
+				"original"
+			],
+			[
+				"ori",
+				"original"
+			],
+			[
+				"ex",
+				"export"
+			],
+			[
+				"back",
+				"background\t = 'inherit' Style CSS"
+			],
+			[
+				"render",
+				"render()\tReactDOM"
+			],
+			[
+				"char",
+				"charlyString"
+			],
+			[
+				"log",
+				"logFoo"
+			],
+			[
+				"constr",
+				"constructor\tReact.Component"
+			],
+			[
+				"attr",
+				"attributes\t: Attr[] Element"
+			],
+			[
+				"mess",
+				"messageData"
+			],
+			[
+				"un",
+				"unsubscribe"
+			],
+			[
+				"Comp",
+				"Component"
+			],
+			[
+				"getCa",
+				"getCampus"
+			],
+			[
+				"add",
+				"addStudent"
+			],
+			[
+				"post",
+				"postStudent"
+			],
+			[
+				"hand",
+				"handleChange"
+			],
+			[
+				"ha",
+				"handleSubmit"
+			],
+			[
+				"cam",
+				"campuses"
+			],
+			[
+				"GET",
+				"GET_CAMPUS"
+			],
+			[
+				"campus",
+				"campuses"
+			],
+			[
+				"GE",
+				"GET_CAMPUSES"
+			],
+			[
+				"ca",
+				"campuses"
+			],
+			[
+				"funct",
+				"function_with_name"
+			],
+			[
+				"camp",
+				"campus"
+			],
+			[
+				"UP",
+				"UPDATE_CAMPUS"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"cha",
+				"channels"
+			],
+			[
+				"stat",
+				"status\t XMLHttpRequest"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"mo",
+				"models"
+			],
+			[
+				"re",
+				"re\trequire"
+			],
+			[
+				"ini",
+				"initialState"
+			],
+			[
+				"console",
+				"console_log"
+			],
+			[
+				"ad",
+				"adoptSelectedPet"
+			],
+			[
+				"prev",
+				"previewPet"
+			],
+			[
+				"pet",
+				"petToPreview"
+			],
+			[
+				"artist",
+				"artistSong"
+			],
+			[
+				"Sin",
+				"SingleArtist"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"selec",
+				"selectedAlbum"
+			],
+			[
+				"al",
+				"album"
+			],
+			[
+				"had",
+				"handleClick"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"image",
+				"imageUrl"
+			],
+			[
+				"S",
+				"Sidebar"
+			],
+			[
+				"u",
+				"us\tuse strict"
+			],
+			[
+				"getE",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"sock",
+				"socket"
+			],
+			[
+				"rest",
+				"restaurants"
+			],
+			[
+				"art",
+				"articles"
+			],
+			[
+				"ac",
+				"activities"
+			],
+			[
+				"data",
+				"dataValues"
+			],
+			[
+				"hotel",
+				"hotelVal"
+			],
+			[
+				"url",
+				"urlTitle"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"wiki",
+				"wikiRouter"
+			],
+			[
+				"Se",
+				"Sequelize"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"rs",
+				"rs\tres.send"
+			],
+			[
+				"listen",
+				"server.listen"
+			],
+			[
+				"user",
+				"userTasks"
+			],
+			[
+				"has",
+				"hasOwnProperty\t( property: string ): boolean Object"
+			],
+			[
+				"the",
+				"theFile"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"echo",
+				"echoArgs"
+			],
+			[
+				"functio",
+				"function_without_name"
+			],
+			[
+				"functi",
+				"function_without_name"
+			],
+			[
+				"une",
+				"undefined\t: object Global"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"toggleC",
+				"toggleCellStatus"
+			],
+			[
+				"game",
+				"gameOfLife"
+			],
+			[
+				"dat",
+				"data-status"
+			],
+			[
+				"par",
+				"parseInt\t( s: string, radix: int ): int Global"
+			],
+			[
+				"forEach",
+				"forEach\t( callbackfn: Function, thisArg?: any ): Array Array"
+			],
+			[
+				"getElem",
+				"getElementsByTagName\t( localName: DOMString ): HTMLCollection Document"
+			],
+			[
+				"di",
+				"difference"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"arr",
+				"arrObject"
+			],
+			[
+				"unde",
+				"undefined\t: object Global"
+			],
+			[
+				"firs",
+				"firstAttacker"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"fib",
+				"fibonacci"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"funtio",
+				"function_with_name"
+			],
+			[
+				"Ma",
+				"Mammal"
+			],
+			[
+				"ptot",
+				"prototype"
+			],
+			[
+				"start",
+				"startingValue"
+			],
+			[
+				"reduce",
+				"reduceRight\t( callbackfn: Function, initialValue?: any ): any Array"
+			],
+			[
+				"function",
+				"functionObject"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"fin",
+				"findEvenIndex"
+			],
+			[
+				"i",
+				"ife\tif … else"
+			],
+			[
+				"Conte",
+				"contentType\t: DOMString Document"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"lion",
+				"lionApi"
+			],
+			[
+				"co",
+				"collection"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"app",
+				"appendChild\t( node: Node ): Node Node"
+			],
+			[
+				"cap",
+				"captionElement"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 385.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"jspr",
+				"Preferences: JsPrettier Settings - User"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"jsf",
+				"JSFMT: Format the current file"
+			],
+			[
+				"ja",
+				"JSFMT: Toggle autoformat"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"ReadmePlease"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"r",
+				"ReadmePlease"
+			],
+			[
+				"api",
+				"Snippet: .wrapInner()"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"te",
+				"Text Pastry: Command-Line"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pC",
+				"Package Control: List Packages"
+			],
+			[
+				"Read",
+				"ReadmePlease"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Ke",
+				"Preferences: Key Bindings"
+			]
+		],
+		"width": 1382.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.eslintrc.json",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.jshintrc",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.eslintrc",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.bowerrc",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.babelrc",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/src/index.jsx",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.eslintrc.js",
+		"/Users/antonio-pavicevac-ortiz/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/package.json",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/routes/index.js",
+		"/Users/antonio-pavicevac-ortiz/Library/Application Support/Sublime Text 3/Packages/User/JsPrettier.sublime-settings",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/assets/stylesheets/libs/skeleton-fontawesome-buttons/_skeleton-fontawesome-buttons.scss",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/config.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/public/stylesheets/styles.css",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/public/js/bundle.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/src/index.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/assets/stylesheets/styles.scss",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/views/index.ejs",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/server.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/public/index.html",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/bower.json",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/webpack.config.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/public/bundle.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/api/index.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/Ex_Files_Functional_Programming_JavaScript/Exercise_Files/03_02/Begin/01_simpleMap.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/app/components/Navbar.jsx",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/package.json",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/app/reducers/index.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/db/index.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/app/components/Main.jsx",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/app/components/StudentForm.jsx",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/app/components/Students.jsx",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/db/models/campus.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/app/main.jsx",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/app/components/Root.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/app/components/Navbar.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/app/components/__StudentContainer.js",
+		"/Users/antonio-pavicevac-ortiz/Downloads/senior-enrichment-master 2/db/models/campus.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/Ex_Files_React_Lifecycles/lifecycle-logger/src/index.js",
+		"/Users/antonio-pavicevac-ortiz/Library/Application Support/Sublime Text 3/Packages/User/jsfmt.sublime-settings",
+		"/Users/antonio-pavicevac-ortiz/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/antonio-pavicevac-ortiz/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/full-stack-academy/checkpoints/senior-enrichment/assets/stylesheets/styles.scss"
+	],
+	"find":
+	{
+		"height": 66.0
+	},
+	"find_in_files":
+	{
+		"height": 146.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header_message",
+			"headerMessage",
+			"es6",
+			"app",
+			"console.log",
+			"config.port",
+			"server",
+			"res",
+			"doesArrayContainAnOddNumber",
+			"if ",
+			"Root",
+			"this.props",
+			"this.props.album",
+			"All",
+			"\n<",
+			"somethingOnProps",
+			"{",
+			"cohort={props.first}",
+			"yellow",
+			"red",
+			"to top,",
+			"12D8FA",
+			"A6FFCB",
+			"ffffff",
+			"917c4d",
+			"-image",
+			"\"\"",
+			"1) includes \"FROM\" line as an h1\n",
+			"articles",
+			"newStudent",
+			"postStudent",
+			"scrubStudent",
+			"                  })}",
+			"onRowDel",
+			"handleRowDel",
+			"deleteStudent",
+			" handleRowDel",
+			"event",
+			"items",
+			"UPDATE_NAME",
+			"updateName",
+			"six",
+			"class",
+			"Change",
+			"props",
+			"store",
+			"props",
+			"\"",
+			",",
+			"    ",
+			"students",
+			"newStudent",
+			"student",
+			"class",
+			"Students",
+			"Campuses",
+			"Students",
+			"label",
+			"class",
+			"Campuses",
+			"class",
+			"Navbar",
+			"channelname",
+			"GET",
+			"messageId",
+			" value=\"\"",
+			"Page",
+			"app",
+			"newState",
+			"      break\n",
+			"newState",
+			"prevState",
+			"console.log('typeof', typeof newState)\n",
+			"      break;\n",
+			"state",
+			"previousState",
+			"newState",
+			"reducer",
+			"Reducer",
+			"prevState",
+			"pet",
+			"DOG",
+			"ADOPT_PET",
+			"PREVIEW",
+			"xit",
+			"pets",
+			"dog",
+			"dogs",
+			"artistSong",
+			".data",
+			"albums",
+			"artistAlbum",
+			"artistId",
+			"\"",
+			"AllArtists",
+			"AllAlbums",
+			"albums",
+			"fakeAlbum",
+			"super+shift+d",
+			"\"use strict\";\n\nconst React = require(\"react\");\n\nclass Footer extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      message: \"Hello World\"\n    };\n  }\n  render() {\n    return (\n      <footer>\n        <div className=\"pull-left\">\n          <button className=\"btn btn-default\">\n            <span className=\"glyphicon glyphicon-step-backward\" />\n          </button>\n          <button className=\"btn btn-default\">\n            <span className=\"glyphicon glyphicon-play\" />\n          </button>\n          <button className=\"btn btn-default\">\n            <span className=\"glyphicon glyphicon-step-forward\" />\n          </button>\n        </div>\n        <div className=\"bar\">\n          <div className=\"progress\">\n            <div className=\"progress-bar\" />\n          </div>\n        </div>\n      </footer>\n    );\n  }\n}\n\nmodule.exports = Footer;",
+			"class",
+			"className",
+			"const",
+			"var",
+			"./models",
+			".",
+			"//",
+			"hotel",
+			"Hotel",
+			"../models",
+			"Song",
+			"song",
+			"songs",
+			"Activities",
+			"restaurants",
+			"hotels",
+			"Hotel",
+			"restaurants",
+			"restaurant",
+			"hotel",
+			"span",
+			"\"<option>\"",
+			"\"</option>\"",
+			"hotelspan",
+			"                ",
+			"key",
+			"api",
+			"content"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"it",
+			"name"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 442.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 138.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"em",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -23,11 +23,11 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header message={this.state.pageHeader} />
         <div>
-          <Header message={this.state.pageHeader} />
-        </div>
-        <div>
-          <ContestPreview {...this.props.contests[0]} />
+          {this.props.contests.map(function(contest) {
+            <ContestPreview {...contest} />;
+          }, this)}
         </div>
       </div>
     );

@@ -1,4 +1,5 @@
 'use strict';
+var webpack = require('webpack');
 
 module.exports = {
   entry: './src/index.jsx',
@@ -13,8 +14,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.json$/, loader: 'json' },
-      ,
+      { test: /\.json$/, loader: 'json-loader' },
       {
         test: /jsx?$/,
         exclude: /(node_modules|assets)/,

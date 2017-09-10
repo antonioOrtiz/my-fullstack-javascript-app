@@ -11,7 +11,7 @@ const logStars = function(message) {
 const config = {
   // mongodbUri: 'mongodb://localhost:27017/test',
   port: env.PORT || 8016,
-  host: env.HOST || '0.0.0.0',
+  host: env.HOST || 'localhost',
   get serverUrl() {
     return `http://${this.host}:${this.port}`;
   }

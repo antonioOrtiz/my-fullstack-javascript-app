@@ -9,10 +9,8 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var contestsRouter = require('./routes/api/contests');
 
-app.set('views', path.join(__dirname, 'views'));
+// app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-
-var serverRender = require('./serverRender');
 
 app.use('/', routes);
 app.use('/api/contests', contestsRouter);

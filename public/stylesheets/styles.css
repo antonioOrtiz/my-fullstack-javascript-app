@@ -1029,11 +1029,23 @@ html {
   background: linear-gradient(#fbc2eb, #a18cd1);
   /* Standard syntax (must be last) */ }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 5px;
-  /* 5px rounded corners */ }
+#root {
+  margin-top: 25px; }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+.ContestPreview {
+  margin: 1em;
+  border: 1px solid #ccc; }
+  .ContestPreview .category-name {
+    border-bottom: 1px solid #ccc;
+    padding: 0.25em 0.5em;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.22); }
+  .ContestPreview .contest-name {
+    padding: 0.5em; }
+
+.link {
+  cursor: pointer; }
+
+.home-link {
+  margin-top: 1em;
+  color: #0000ee; }

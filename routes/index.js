@@ -6,8 +6,8 @@ const router = express.Router();
 
 import serverRender from '../serverRender';
 
-router.get('/', function(req, res) {
-  serverRender()
+router.get(['/', '/contest/:contestId'], (req, res) => {
+  serverRender(req.params.contestId)
     .then(({ initialMarkup, initialData }) => {
       res.render('index', {
         initialMarkup,

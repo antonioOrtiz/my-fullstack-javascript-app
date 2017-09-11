@@ -13,7 +13,7 @@ const config = {
   port: env.PORT || 8016,
   host: env.HOST || 'localhost',
   get serverUrl() {
-    return `http://${this.host}:${this.port}`;
+    return `http://localhost:8016`;
   }
 };
 

@@ -9,7 +9,7 @@ axios
   .get('/api/contests')
   .then(resp => {
     render(
-      <App initialContests={window.initialData.contests} />,
+      <App initialData={window.initialData} />,
       document.getElementById('root')
     );
   })

@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import ContestList from './ContestList';
+import Contest from './Contest';
+import * as api from '../api';
+
+function pushState(obj, url) {
+  return window.history.pushState(obj, '', url);
+}
 
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      pageHeader: 'Naming Contests',
-      contests: this.props.initialContests
+    this.state = this.props.initialData;
+    this.fetchContest = this.fetchContest.bind(this);
+    this.propTypes = {
+      initialData: React.PropTypes.object.isRequired
     };
   }
 
@@ -21,13 +28,50 @@ export default class App extends Component {
     console.log('will unmount'); //clear timers, listeners
   }
 
+  fetchContest(contestId) {
+    pushState({ currentContestId: contestId }, `/contest/${contestId}`);
+    api.fetchContest(contestId).then(contest => {
+      this.setState({
+        currentContestId: contest.id,
+        contests: {
+          ...this.state.contests,
+          [contest.id]: contest
+        }
+      });
+    });
+  }
+
+  pageHeader() {
+    if (this.state.currentContestId) {
+      return this.currentContest().contestName;
+    }
+
+    return 'Naming Contests';
+  }
+
+  currentContest() {
+    return this.state.contests[this.state.currentContestId];
+  }
+
+  currentContent() {
+    if (this.state.currentContestId) {
+      return <Contest {...this.currentContest()} />;
+    }
+    return (
+      <ContestList
+        onContestClick={this.fetchContest}
+        contests={this.state.contests}
+      />
+    );
+  }
+
   render() {
     return (
       <div className="container">
         <div className="row">
           <div className="twelve columns">
-            <Header message={this.state.pageHeader} />
-            <ContestList contests={this.state.contests} />
+            <Header message={this.pageHeader()} />
+            {this.currentContent()}
           </div>
         </div>
       </div>

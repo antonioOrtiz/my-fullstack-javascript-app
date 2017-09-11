@@ -27,5 +27,5 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(config.port, config.host, () => {
-  console.info('Express listening on port', config.port);
+  console.info('Express listening on port', config.port, config.host);
 });

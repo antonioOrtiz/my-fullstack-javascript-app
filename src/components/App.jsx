@@ -3,19 +3,20 @@ import Header from './Header';
 import ContestList from './ContestList';
 import Contest from './Contest';
 import * as api from '../api';
+import PropTypes from 'prop-types';
 
 function pushState(obj, url) {
   return window.history.pushState(obj, '', url);
 }
 
 export default class App extends Component {
+  static propTypes = {
+    initialData: React.PropTypes.object.isRequired
+  };
   constructor(props) {
     super(props);
     this.state = this.props.initialData;
     this.fetchContest = this.fetchContest.bind(this);
-    this.propTypes = {
-      initialData: React.PropTypes.object.isRequired
-    };
   }
 
   componentDidMount() {
@@ -41,6 +42,16 @@ export default class App extends Component {
     });
   }
 
+  fetchContestList = () => {
+    pushState({ currentContestId: null }, '/');
+    api.fetchContestList().then(contests => {
+      this.setState({
+        currentContestId: null,
+        contests
+      });
+    });
+  };
+
   pageHeader() {
     if (this.state.currentContestId) {
       return this.currentContest().contestName;
@@ -55,7 +66,12 @@ export default class App extends Component {
 
   currentContent() {
     if (this.state.currentContestId) {
-      return <Contest {...this.currentContest()} />;
+      return (
+        <Contest
+          contestListClick={this.fetchContestList}
+          {...this.currentContest()}
+        />
+      );
     }
     return (
       <ContestList

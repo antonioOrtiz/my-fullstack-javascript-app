@@ -35,9 +35,9 @@ const serverRender = contestId =>
       const initialData = getInitialData(contestId, resp.data);
       return {
         initialMarkup: ReactDomServer.renderToString(
-          <App initialData={resp.data} />
+          <App initialData={initialData} />
         ),
-        initialData: resp.data
+        initialData: initialData
       };
     })
     .catch(console.error);

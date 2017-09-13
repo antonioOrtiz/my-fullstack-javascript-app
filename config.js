@@ -9,11 +9,11 @@ const logStars = function(message) {
 };
 
 const config = {
-  // mongodbUri: 'mongodb://localhost:27017/test',
+  mongodbUri: 'mongodb://localhost:27017/test',
   port: env.PORT || 8016,
   host: env.HOST || 'localhost',
   get serverUrl() {
-    return `http://localhost:8016`;
+    return 'http://localhost:8016';
   }
 };
 

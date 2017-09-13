@@ -9,6 +9,10 @@ function pushState(obj, url) {
   return window.history.pushState(obj, '', url);
 }
 
+const onPopState = popStateHandler => {
+  window.onpopstate = popStateHandler;
+};
+
 export default class App extends Component {
   static propTypes = {
     initialData: React.PropTypes.object.isRequired
@@ -22,6 +26,12 @@ export default class App extends Component {
   componentDidMount() {
     // This is the life cycle method that guarantees that the DOM has been mounted in the browser successfully.
     console.log('did Mount'); // ajax call, timers, listeners
+
+    onPopState(event => {
+      this.setState({
+        currentContestId: (event.state || {}).currentContestId
+      });
+    });
   }
 
   componentWillUnmount() {

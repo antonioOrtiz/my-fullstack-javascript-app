@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"contest"
+			],
+			[
+				"confi",
+				"config"
+			],
+			[
+				"current",
+				"currentContestId"
+			],
+			[
+				"set",
+				"setState"
+			],
+			[
 				"header",
 				"headerMessage"
 			],
 			[
 				"crea",
 				"createElement()\tReact"
-			],
-			[
-				"set",
-				"setTimeout\tsetTimeout()"
 			],
 			[
 				"exports",
@@ -502,18 +514,6 @@
 			[
 				"co",
 				"collection"
-			],
-			[
-				"f",
-				"f\tAnonymous Function"
-			],
-			[
-				"app",
-				"appendChild\t( node: Node ): Node Node"
-			],
-			[
-				"cap",
-				"captionElement"
 			]
 		]
 	},
@@ -634,6 +634,12 @@
 	},
 	"file_history":
 	[
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/src/components/ContestPreview.jsx",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/package.json",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/src/components/ContestList.jsx",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/assets/stylesheets/styles.scss",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/webpack.config.js",
+		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/serverRender.js",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.eslintrc.json",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.jshintrc",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.eslintrc",
@@ -642,7 +648,6 @@
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/src/index.jsx",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/.eslintrc.js",
 		"/Users/antonio-pavicevac-ortiz/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/package.json",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/routes/index.js",
 		"/Users/antonio-pavicevac-ortiz/Library/Application Support/Sublime Text 3/Packages/User/JsPrettier.sublime-settings",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/assets/stylesheets/libs/skeleton-fontawesome-buttons/_skeleton-fontawesome-buttons.scss",
@@ -650,12 +655,10 @@
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/public/stylesheets/styles.css",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/public/js/bundle.js",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/src/index.js",
-		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/assets/stylesheets/styles.scss",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/views/index.ejs",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/server.js",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/public/index.html",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/bower.json",
-		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/webpack.config.js",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/public/bundle.js",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/my-fullstack-javascript-app/api/index.js",
 		"/Users/antonio-pavicevac-ortiz/Dropbox/developer_folder/Ex_Files_Functional_Programming_JavaScript/Exercise_Files/03_02/Begin/01_simpleMap.js",
@@ -680,7 +683,7 @@
 	],
 	"find":
 	{
-		"height": 66.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -695,6 +698,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"req",
+			"req.URL",
+			"req.URL\n",
+			"assert",
+			"config",
+			"contest",
+			"cotest",
+			"fetchContest",
+			"resp.data",
 			"header_message",
 			"headerMessage",
 			"es6",
@@ -813,16 +825,7 @@
 			"hotels",
 			"Hotel",
 			"restaurants",
-			"restaurant",
-			"hotel",
-			"span",
-			"\"<option>\"",
-			"\"</option>\"",
-			"hotelspan",
-			"                ",
-			"key",
-			"api",
-			"content"
+			"restaurant"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -930,7 +933,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 185.0,
+	"side_bar_width": 161.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

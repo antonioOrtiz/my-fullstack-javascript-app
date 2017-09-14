@@ -15,7 +15,10 @@ router.get(['/', '/contest/:contestId'], (req, res) => {
         initialData
       });
     })
-    .catch(console.error);
+    .catch(error => {
+      console.error(error);
+      res.status(404).send('Bad Request');
+    });
 });
 
 module.exports = router;

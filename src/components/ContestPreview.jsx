@@ -8,7 +8,7 @@ export default class ContestPreview extends Component {
   }
 
   handleClick() {
-    this.props.onClick(this.props.id);
+    this.props.onClick(this.props._id);
   }
 
   render() {
@@ -22,7 +22,7 @@ export default class ContestPreview extends Component {
 }
 
 ContestPreview.propTypes = {
-  id: React.PropTypes.number.isRequired,
+  _id: React.PropTypes.string.isRequired,
   categoryName: React.PropTypes.string.isRequired,
   contestName: React.PropTypes.string.isRequired,
   onClick: React.PropTypes.func.isRequired
